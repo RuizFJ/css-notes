@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color: #f3ea;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGP_f_X_nr4CYnvfMJJa_sq3QQ5dSusoGJLA&s");
+    background-size: contain;
+    
+    background-position: center;
+
+
+    position: absolute;
+    top: 0;
+}

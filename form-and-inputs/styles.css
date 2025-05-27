@@ -1,0 +1,93 @@
+body{
+    
+    height: 100vh;
+    color: #444;
+    font-family: sans-serif;
+    margin: 0;
+    color: #eee;
+    background: linear-gradient(to bottom, #333, #000);
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: 0px 0px 35px 0px #0006;
+    margin-top: 50px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    max-width: 600px;   /*esto significa que el tamaño maximo del form es 600px*/
+    box-sizing: border-box;
+}
+
+.form-group{
+    margin: 15px 10px;
+    margin-top: 5px;
+    
+}
+h2{
+    margin: 0;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    text-align: center;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+input, textarea, select{
+    background-color: transparent;
+    
+    color: #666;
+    width: 100%;
+    box-sizing: border-box; /*para que no se desborde el input fuera del form*/
+    margin: auto;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 15px 0px #0005;
+    color: #ddd;
+    border-radius: 5px;
+}
+
+textarea{
+    
+    font-family: sans-serif;
+    min-width: 100%;
+    min-height: 100px;
+    resize: none;
+    font-size: 14px;
+}
+
+label{
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+option{
+    background-color: #222;
+}
+
+fieldset{
+   padding: 0 15px;
+   margin: 0 10px;
+   border : 1px solid #666;
+   border-radius: 5px;
+}
+
+legend{
+    padding: 0 6px;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+
+
+

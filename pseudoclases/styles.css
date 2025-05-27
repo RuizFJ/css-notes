@@ -1,0 +1,68 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/*cuando pasamos mouse por encima de h1*/
+/*h1:hover{
+    color: #000;
+    background-color: #ccc;
+}*/
+
+/*cuando hacemos click en h1*/
+h1:active{
+    color: #fff;
+    background-color: #000;
+}
+
+/*selecionando el primer elemento de la lista*/
+li:first-child{
+    color: red;
+}
+/*selecionando el ultimo elemento de la lista*/
+li:last-child{
+    color: blue;
+}
+
+/*selecionando el segundo elemento de la lista*/
+li:nth-child(2){
+    color: green;
+}
+
+/*de cada 3 elementos seleccionar 1*/
+li:nth-child(3n){
+    color: orange;
+}
+
+
+/*selecionando el elemento que no tiene la clase elemento-faltante*/
+li:not(.elemento-faltante){
+    color: purple;
+}
+
+/*seleccionando link no visitado con :link*/
+a:link{
+    color: #48e;
+    text-decoration: none;
+}
+/*seleccionando link visitado con :visited*/
+a:visited{
+    color: #48e;
+    text-decoration: none;
+}
+
+/*seleccionando ul que esta antes de un div*/
+ul:has(+div){
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*input:invalid{
+    border: 2px solid red;
+}*/
+label:has(input:invalid){
+    color: red;
+    font-weight: bold;
+}

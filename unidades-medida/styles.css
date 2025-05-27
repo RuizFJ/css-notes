@@ -1,0 +1,46 @@
+body{
+    
+    font-family: sans-serif;
+    color: white;
+}
+.card{
+    background: coral;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+
+}
+.card{
+    
+    border: 3px solid aqua;
+    border-radius: 10px;
+    border-top: 10px dashed blue;
+    
+}
+h1{
+    font-size: 1em;
+    padding-top: 10px;
+    border: 1px solid white;
+    
+}
+h2{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 9px;
+    background: lightcoral;
+    padding: 20px;
+    text-align: justify;
+}
+
+.input-field{
+    margin: 20px;
+    padding: 6px 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}

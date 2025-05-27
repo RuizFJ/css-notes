@@ -1,0 +1,19 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.content-box{
+    
+    border: 3px solid blue;
+    padding: 10px;
+}
+.border-box{
+    box-sizing: border-box;
+    border: 3px solid blue;
+    padding: 10px;
+}
+

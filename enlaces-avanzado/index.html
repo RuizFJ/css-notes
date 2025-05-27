@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="icons8-favicon-64.png" type="image/png">
+</head>
+
+<body>
+
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input id="nombre" type="text" placeholder="John Doe" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" placeholder="example@gmail.com" />
+            </div>
+            <div class="form-group">
+                <label for="">Asunto</label>
+                <input id="" placeholder="El asunto de tu mensaje" />
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="select">Tipos de Usuario</label>
+            <br>
+            <select name="" id="select">
+                <option value="">Selecciona una opción</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+                <option value="4">Opción 4</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="referenteInput">Referente</label>
+            <br>
+            <input id="referenteInput" name="referente" list="referente">
+            <datalist id="referente">
+                <option value="">Selecciona una opción</option>
+                <option value="Francisco">Opción 1</option>
+                <option value="Christiam">Opción 2</option>
+                <option value="Axel">Opción 3</option>
+                <option value="Nicole">Opción 4</option>
+            </datalist>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="" id="" placeholder="Deja un mensaje"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Acepto los <a href="terminos.html">terminos y condiciones</a></label>
+            <input type="checkbox" id="checkbox" />
+        </div>
+    </form>
+
+
+</body>
+
+</html>
