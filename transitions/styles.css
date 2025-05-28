@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    transition-property: left, top;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    /*transition-delay: 4s;*/
+    left: 0;
+    top: 50px;
+    
+    
+}
+
+/* cuando haya una interaccion con el body que haya una 
+transition en ,box*/
+body:hover .box{
+    left: 500px;
+    
+}
+
+

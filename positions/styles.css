@@ -23,12 +23,3 @@ body{
     
 }
 
-.contenedor {
-  position: relative;
-}
-
-.absoluto {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
