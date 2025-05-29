@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+
+input{
+    margin: 50px;
+    border: none;
+    border-top: 3px solid #333;
+    outline: none;
+    
+}
+
+input:hover{
+    outline: 3px solid #f00;
+    outline-offset: 5px;
+}
