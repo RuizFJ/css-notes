@@ -12,7 +12,7 @@ body{
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: space-evenly;
-    height: 700px;
+    
     
 }
 
@@ -20,7 +20,7 @@ body{
     width: 100px;
     height: 100px;
     background-color: #911;
-    margin: 10px;
+    margin: 10px 0;
     text-align: center;
     color: white;
     font-size: 40px;
@@ -34,8 +34,14 @@ body{
     
 .flex-item:first-child{
     background-color: #d56;
-    
+    flex-grow: 1;
     
 }
+.flex-item:nth-child(2n){
+    background-color: #d5d;
+    flex-grow: 2;
+    
+}
+
 
 
