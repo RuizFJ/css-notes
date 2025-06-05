@@ -12,12 +12,15 @@ body{
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: space-evenly;
+    gap: 10px;
+   
     
+   
     
 }
 
 .flex-item{
-    width: 100px;
+    
     height: 100px;
     background-color: #911;
     margin: 10px 0;
@@ -27,21 +30,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 1 200px;
+    
     
 }
-    
+
     
     
 .flex-item:first-child{
     background-color: #d56;
-    flex-grow: 1;
+    
     
 }
-.flex-item:nth-child(2n){
+.item-5{
     background-color: #d5d;
-    flex-grow: 2;
     
 }
-
-
-
