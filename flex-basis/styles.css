@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.box {
+  flex-grow: 1;
+  flex-basis: 0; /* o no lo defines explícitamente */
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 0;
+}
